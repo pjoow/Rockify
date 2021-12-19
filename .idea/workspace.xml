@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b491769-2a80-4567-abe3-cdeceb172fd8" name="Default Changelist" comment="" />
+    <list default="true" id="1b491769-2a80-4567-abe3-cdeceb172fd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/BandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/FillerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/PlaylistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/dto/PlaylistDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/model/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/repository/PlaylistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/service/FillerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/util/BandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/util/PlaylistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rockstars/rockify/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26f2139b-d37b-4e45-ac79-b0695fc75879.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/26f2139b-d37b-4e45-ac79-b0695fc75879.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rockify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rockify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/RockifyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/RockifyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/SongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/dto/BandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/dto/BandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/dto/SongDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/dto/SongDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/model/Band.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/model/Band.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/model/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/model/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/repository/BandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/repository/BandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/repository/SongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/repository/SongRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/util/SongMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rockstars/rockify/util/SongMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +64,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\pjotr\.m2\settings-mvn.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="22Q4rcMpegpIhbdFpyTst2ZslRB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,10 +85,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,16 +100,68 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.rockstars.rockify.repository" />
+      <recent name="com.rockstars.rockify.util" />
+      <recent name="com.rockstars.rockify.controller" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.RockifyApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testAddSong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rockify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rockstars.rockify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rockstars.rockify" />
+      <option name="MAIN_CLASS_NAME" value="com.rockstars.rockify.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddSong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testAddSongInvalidBand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rockify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rockstars.rockify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rockstars.rockify" />
+      <option name="MAIN_CLASS_NAME" value="com.rockstars.rockify.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddSongInvalidBand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testUpdateSong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rockify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rockstars.rockify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rockstars.rockify" />
+      <option name="MAIN_CLASS_NAME" value="com.rockstars.rockify.IntegrationTest" />
+      <option name="METHOD_NAME" value="testUpdateSong" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegrationTest.testUpdateSong" />
+        <item itemvalue="JUnit.IntegrationTest.testAddSong" />
+        <item itemvalue="JUnit.IntegrationTest.testAddSongInvalidBand" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639756678815</updated>
       <workItem from="1639756680217" duration="8383000" />
+      <workItem from="1639830192301" duration="17397000" />
     </task>
     <servers />
   </component>
@@ -101,14 +207,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rockstars/rockify/RockifyApplication.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/SongController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/BandController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rockstars/rockify/controller/SongController.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

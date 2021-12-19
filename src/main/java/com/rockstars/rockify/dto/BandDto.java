@@ -13,4 +13,7 @@ public class BandDto {
 
     @JsonProperty("Name")
     private String name;
+
+    @JsonProperty("rockstarId")
+    private Long rockstarId;
 }

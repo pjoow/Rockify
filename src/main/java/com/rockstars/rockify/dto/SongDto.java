@@ -1,11 +1,15 @@
 package com.rockstars.rockify.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class SongDto {
 
     @JsonProperty("Id")
@@ -19,6 +23,9 @@ public class SongDto {
 
     @JsonProperty("Artist")
     private String artist;
+
+    @JsonProperty("BandId")
+    private Long bandId;
 
     @JsonProperty("Shortname")
     private String shortname;
@@ -37,4 +44,7 @@ public class SongDto {
 
     @JsonProperty("Album")
     private String album;
+
+    @JsonProperty("rockstarId")
+    private Long rockstarId;
 }

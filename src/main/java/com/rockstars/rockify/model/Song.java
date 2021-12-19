@@ -2,14 +2,14 @@ package com.rockstars.rockify.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -40,4 +40,7 @@ public class Song {
     private String album;
 
     private Long rockstarId;
+
+    @ManyToMany
+    private Set<Playlist> playlists;
 }
